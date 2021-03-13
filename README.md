@@ -1,0 +1,1 @@
+Studiu individual Nr1
