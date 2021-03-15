@@ -19,13 +19,15 @@ public class Cursa {
                  TipulAvionului tipulAvionului, Pilot pilot, DateTime dateTime, int bileteComercializate) {
         this.numarulCursei = numarulCursei;
         this.numarulNavei = numarulNavei;
+        this.tipulAvionului = tipulAvionului;
         this.punctulDePlecare = punctulDePlecare;
         this.punctulDestinatie = punctulDestinatie;
-        this.tipulAvionului = tipulAvionului;
         this.pilot = pilot;
         this.dateTime = dateTime;
         this.bileteComercializate = bileteComercializate;
     }
+
+
 
     // Cream getteri si setteri pentru introducerea si returnarea datelor
 
@@ -59,10 +61,6 @@ public class Cursa {
 
     public int getBileteComercializate() {
         return bileteComercializate;
-    }
-
-    public void setTipulAvionului(TipulAvionului tipulAvionului) {
-        this.tipulAvionului = tipulAvionului;
     }
 
     public void setBileteComercializate(int bileteComercializate) {

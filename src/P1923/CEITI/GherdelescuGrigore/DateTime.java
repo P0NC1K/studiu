@@ -1,19 +1,19 @@
 package P1923.CEITI.GherdelescuGrigore;
 
 public class DateTime {
-    private String OraDecolarii;
-    private String ZiuaDecolarii;
+    private String oraDecolarii;
+    private String ziuaDecolarii;
 
     public DateTime(String oraDecolarii, String ziuaDecolarii) {
-        OraDecolarii = oraDecolarii;
-        ZiuaDecolarii = ziuaDecolarii;
+        this.oraDecolarii = oraDecolarii;
+        this.ziuaDecolarii = ziuaDecolarii;
     }
 
     public String getOraDecolarii() {
-        return OraDecolarii;
+        return oraDecolarii;
     }
 
     public String getZiuaDecolarii() {
-        return ZiuaDecolarii;
+        return ziuaDecolarii;
     }
 }
